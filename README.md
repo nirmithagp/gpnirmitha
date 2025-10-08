@@ -45,7 +45,6 @@ Performs feature analysis and evaluates model performance with accuracy, precisi
 ## 📦 Installation
 
 ### 1️⃣ Clone the Repository
-```bash
 git clone https://github.com/<your-username>/farm-loan-recommender.git
 cd farm-loan-recommender
 2️⃣ Create & Activate Virtual Environment
@@ -63,7 +62,6 @@ jupyter notebook "loan_recomm (1).ipynb"
 🌾 Example Usage
 
 Farmer Input Example:
-
 Land Type: Irrigated
 Crop Name: Paddy
 Annual Income: ₹3,00,000
@@ -71,21 +69,20 @@ Location: Karnataka
 
 
 Model Output:
-
 Best Loan Recommendation	Top 2 Alternatives
 Agricultural Loan Scheme - A	Crop Development Loan, Kisan Credit Yojana
 
 Explanation:
 The system analyzes the input parameters, predicts eligibility using XGBoost, and ranks the top loan schemes suited for the farmer’s financial and agricultural profile.
 
-🧪 Model Highlights
+###🧪 Model Highlights
 
 Algorithm: XGBoost Classifier
 Evaluation Metrics: Accuracy, Precision, Recall, F1-score
 Goal: Identify and rank best loan options for farmers efficiently.
 Training Data: Contains features related to agriculture, income, and demographics.
 
-📝 Roadmap / Future Enhancements
+###📝 Roadmap / Future Enhancements
 
 🌐 Develop a Streamlit Web Interface for real-time use
 🗺️ Integrate location-based recommendations
