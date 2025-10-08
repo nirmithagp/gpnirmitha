@@ -44,49 +44,56 @@ Performs feature analysis and evaluates model performance with accuracy, precisi
 
 ## 📦 Installation
 
-1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/<your-username>/farm-loan-recommender.git
 cd farm-loan-recommender
 2️⃣ Create & Activate Virtual Environment
+bash
+Copy code
 python -m venv venv
 venv\Scripts\activate     # For Windows
 # OR
 source venv/bin/activate  # For Linux/Mac
-
 3️⃣ Install Dependencies
+bash
+Copy code
 pip install -r requirements.txt
-
 4️⃣ Run the Notebook
+bash
+Copy code
 jupyter notebook "loan_recomm (1).ipynb"
-
 🌾 Example Usage
-
-Farmer Input Example:
+🧑‍🌾 Farmer Input Example
+yaml
+Copy code
 Land Type: Irrigated
 Crop Name: Paddy
 Annual Income: ₹3,00,000
 Location: Karnataka
-
-
-Model Output:
+💡 Model Output
 Best Loan Recommendation	Top 2 Alternatives
 Agricultural Loan Scheme - A	Crop Development Loan, Kisan Credit Yojana
 
-Explanation:
-The system analyzes the input parameters, predicts eligibility using XGBoost, and ranks the top loan schemes suited for the farmer’s financial and agricultural profile.
+🧠 Explanation
+The system analyzes the input parameters, predicts eligibility using the XGBoost Classifier, and ranks the top 3 loan schemes suited for the farmer’s financial and agricultural profile.
 
-##🧪 Model Highlights
-
+🧪 Model Highlights
 Algorithm: XGBoost Classifier
+
 Evaluation Metrics: Accuracy, Precision, Recall, F1-score
-Goal: Identify and rank best loan options for farmers efficiently.
-Training Data: Contains features related to agriculture, income, and demographics.
 
-##📝 Roadmap / Future Enhancements
+Goal: Identify and rank the best loan options for farmers efficiently
 
+Training Data: Includes agricultural, income, and demographic features
+
+📝 Roadmap / Future Enhancements
 🌐 Develop a Streamlit Web Interface for real-time use
-🗺️ Integrate location-based recommendations
-🧾 Add government scheme API integration for live updates
-☁️ Deploy on Render / AWS / Vercel
-🗣️ Add multilingual support (e.g., Hindi, Kannada)
 
+🗺️ Integrate location-based recommendations
+
+🧾 Add government scheme API integration for live updates
+
+☁️ Deploy on Render / AWS / Vercel
+
+🗣️ Add multilingual support (e.g., Hindi, Kannada)
