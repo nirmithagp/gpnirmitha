@@ -48,35 +48,27 @@ Follow the steps below to set up and run the **Farm Loan Recommender** project o
 
 ---
 
-### 🔹 Step 1: Clone the Repository
-```bash
-    git clone https://github.com/<your-username>/farm-loan-recommender.git
-    cd farm-loan-recommender
-
 🔹 Step 2: Create and Activate a Virtual Environment
+
 For Windows
-    python -m venv venv
-    venv\Scripts\activate
+
+python -m venv venv
+venv\Scripts\activate
+
+
 For Linux / Mac
-    python3 -m venv venv
-    source venv/bin/activate
+
+python3 -m venv venv
+source venv/bin/activate
 
 🔹 Step 3: Install Dependencies
 
 Make sure all required Python packages are installed:
-    pip install -r requirements.txt
+
+pip install -r requirements.txt
 
 🔹 Step 4: Launch the Jupyter Notebook
 
 Run the notebook to explore the model and generate loan recommendations:
-    jupyter notebook "loan_recomm (1).ipynb"
 
-📝 Roadmap & Future Enhancements
-
-🌐 Web Interface: Build a Streamlit-based interactive web app for real-time recommendations
-🗺️ Location Integration: Include regional and climate-based suggestions
-🧾 Government Scheme APIs: Fetch the latest loan/subsidy details dynamically
-☁️ Cloud Deployment: Host on AWS / Render / Vercel for public access
-🗣️ Multilingual Support: Add regional languages like Hindi and Kannada for better accessibility
-
-
+jupyter notebook "loan_recomm (1).ipynb"
